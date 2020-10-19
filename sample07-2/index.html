@@ -24,16 +24,34 @@
     <div class="container-fluid">
         <div id="header-wrapper" class="row">
             <div id="logo" class="col">
-                <h1><a href="#">OpenSpace</a></h1>
+                <h1><a class="navbar-brand" href="#">OpenSpace</a></h1>
             </div>
             <div id="menu" class="col">
-                <ul>
-                    <li class="active"><a href="#" accesskey="1" title="">Homepage</a></li>
-                    <li><a href="#" accesskey="2" title="">Our Clients</a></li>
-                    <li><a href="#" accesskey="3" title="">About Us</a></li>
-                    <li><a href="#" accesskey="4" title="">Careers</a></li>
-                    <li><a href="#" accesskey="5" title="">Contact Us</a></li>
-                </ul>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#"> </a> <!--トグルボタンを右寄せにするために空白文字を挿入-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Homepage <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Our Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
     </div>
