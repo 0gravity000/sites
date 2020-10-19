@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>フィックス（固定）レイアウトサンプル</title>
+	
+	<style type="text/css">
+	
+	body { width : 1000px;margin: 0 auto}
+	
+	header,footer {
+	height : 200px;
+	background: gray}
+	
+	footer {clear: both}
+	
+	#left,#middle,#right {
+	height : 400px;
+	float : left}
+	
+	#left { width: 300px;background: red}
+	#middle { width : 400px;background: green}
+	#right {  width: 300px; background: blue}
+	
+	</style>
+	
+</head>
+<body>
+	<header>
+		<p>これは幅1000pxの固定レイアウト</p>
+		<p>ウィンドウ幅を変えてみてください</p>
+	</header>
+	<div id="contents">
+		<div id="left">
+			<p>幅300px</p>
+		</div>
+		<div id="middle">
+			<p>幅400px</p>
+		</div>
+		<div id="right">
+			<p>幅300px</p>
+		</div>
+	</div>
+	<footer></footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>リキッド（フルード）レイアウトサンプル</title>
+	
+	<style type="text/css">
+
+	body { width : 78.125%;margin: 0 auto}
+	
+	header,footer {
+	height : 200px;
+	background: gray}
+	
+	footer {clear: both}
+	
+	#left,#middle,#right {
+	height : 400px;
+	float : left}
+	
+	#left { width: 30%;background: red}
+	#middle { width : 40%;background: green}
+	#right {  width: 30%; background: blue}
+	
+	</style>
+	
+</head>
+<body>
+	<header>
+		<p>これはリキッド（フルード）レイアウト</p>
+		<p>ウィンドウ幅を変えてみてください</p>
+	</header>
+	<div id="contents">
+		<div id="left">
+			<p>幅30%</p>
+		</div>
+		<div id="middle">
+			<p>幅40%</p>
+		</div>
+		<div id="right">
+			<p>幅30%</p>
+		</div>
+	</div>
+	<footer></footer>
+</body>
+</html>

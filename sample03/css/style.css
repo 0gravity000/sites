@@ -1,0 +1,15 @@
+
+/*メディアクエリ*/
+/*768px以上*/
+@media screen and (min-width : 768px){
+    html {
+        color: red;
+    }
+}
+    
+/*1024px以上*/
+@media screen and (min-width : 1024px) {
+    html {
+        color:blue;
+    }
+}
