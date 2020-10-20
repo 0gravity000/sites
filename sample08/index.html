@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	
+	<title>img要素の実験</title>
+		<link rel="stylesheet" type="text/css" href="css/Normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<p>ヘッダー</p>
+	</header>
+	<!-- //header -->
+
+	<div id="contents">
+		<h1>img要素の実験</h1>
+		<div class="section1">
+			<figure>
+				<a href="./imgs/placeimg_640_480_animals.jpg">
+					<img loading="lazy" width="640" height="480" src="./imgs/placeimg_640_480_animals.jpg" alt="" srcset="./imgs/placeimg_640_480_animals.jpg 537w, ./imgs/placeimg_640_480_animals.jpg 300w" sizes="(max-width: 640px) 100vw, 640px">
+				</a>
+				<figcaption>640✕480固定サイズ</figcaption>
+			</figure>
+		</div>
+		<div class="section2">
+			<figure>
+			<a href="./imgs/placeimg_640_480_animals.jpg">
+				<img src="./imgs/placeimg_640_480_animals.jpg">
+			</a>
+			<figcaption>幅可変サイズ</figcaption>
+			</figure>
+			<figure>
+			<a href="./imgs/placeimg_640_480_animals.jpg">
+				<img src="./imgs/placeimg_640_480_animals.jpg" width="480" height="320">
+			</a>
+			<figcaption>幅可変サイズ</figcaption>
+			</figure>
+		</div>
+
+	</div>
+	
+	<footer>
+		<p>フッター</p>
+		<p><small>&copy;0gravity</small></p>
+	</footer>
+	
+</body>
+</html>
